@@ -4,13 +4,14 @@ import Counter from "./components/Counter";
 import { counterReducer, initialState } from "./reducers/counter-reducer";
 
 function App() {
+  const url = "https://purple-birds-call.loca.lt";
   //const [val, setVal] = useState<number>(0);
   const [val, dispatch] = useReducer(counterReducer, initialState);
   const [isShowCounter, setIsShowCounter] = useState<boolean>(true);
   const my_ref: any = useRef<HTMLInputElement>(null);
   useEffect(() => {
     console.log("start useEffect App");
-    fetch(" https://d82a-95-133-49-17.ngrok-free.app")
+    fetch(url)
       .then((res) => res.json())
       .then((data) => console.log(data));
   }, []);

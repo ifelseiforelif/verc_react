@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/test.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/counter.tsx","./src/functions/sum.ts","./src/reducers/counter-reducer.ts","./src/tests/test.spec.tsx","./src/tests/counter-reducer.spec.ts","./src/tests/sum.test.ts"],"version":"5.6.2"}

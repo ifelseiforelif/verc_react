@@ -10,7 +10,7 @@ function App() {
   const my_ref: any = useRef<HTMLInputElement>(null);
   useEffect(() => {
     console.log("start useEffect App");
-    fetch("https://b3d4-95-133-49-17.ngrok-free.app/products")
+    fetch(" https://d82a-95-133-49-17.ngrok-free.app")
       .then((res) => res.json())
       .then((data) => console.log(data));
   }, []);
